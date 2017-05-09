@@ -38,7 +38,7 @@ function testResults() {
   var correct = 0;
   var incorrect = 0;
   for(i = 0; i < questions.length; i++) {
-    var answer = question[i].answer
+    var answer = questions[i].answer
     var guess = document.getElementById('answer' + [i]).value
     var questionSpot = document.getElementById('question' + [i])
     if(answer == guess) {

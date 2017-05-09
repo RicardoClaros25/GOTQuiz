@@ -1,4 +1,12 @@
-. title {
+.body {
   text-align: center;
   font-size: 50px;
+}
+
+.correct {
+  color:green;
+}
+
+.incorrect {
+  color:red;
 }
